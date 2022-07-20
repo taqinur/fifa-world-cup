@@ -1,0 +1,104 @@
+font-family: 'Poppins', sans-serif;
+
+/* Header Part */
+.header-section{
+    width: 90%;
+}
+.header-container{
+    background-color: rgb(19, 18, 18);
+    border-radius: 1em;
+    display: flex;
+    align-items: center;
+}
+.header-text{
+    width: 45%;
+    color: white;
+    margin: 3em;
+}
+.header-text p{
+    margin: 3em auto;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+.header-text h1{
+    font-size: 3em;
+    font-weight: 700;
+}
+.header-image{
+    width: 45%;
+    margin-left: 5em;
+    margin-bottom: 0;
+}
+.watch-live{
+    background-color: red;
+    width: 6em;
+    border-radius: 1em;
+    text-align: center;
+    padding: 1em;
+}
+
+/* Main part */
+
+.main-container{
+    margin: 5%;
+    width: 90%;
+}
+.pages{
+    width: 250px;
+    background-color: rgb(19, 18, 18);
+    border-radius: 7px;
+    padding: 5px 10px;
+    font-size: 1.3em;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pages p{
+    width: 225px;
+    height: 30px;
+    text-align: center;
+    border-radius: 4px;
+}
+.other-pages a{
+    text-decoration: none;
+    color: black;
+}
+.other-pages{
+    background-color: aliceblue;
+    color: #000;
+}
+.current-page{
+    background-color: red;
+    color: aliceblue;
+}
+.current-page a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/*  Blog Post Part */
+
+.blog-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.post{
+    width: 312px;
+    margin: auto;
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+.post-info{
+    margin: 10px;
+}
+.post-button{
+    font-size: 15px;
+    padding: 3px;
+    margin: 10px 0;
+    font-weight: 600;
+    border: 5px;
+    border-radius: 3px;
+}
