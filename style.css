@@ -333,3 +333,62 @@ nav ul li a{
         display: none;
     }
 }
+
+/* For Tab view */
+@media screen and (min-width:577px) and (max-width:821px) {
+
+    .header-container{
+        height: fit-content;
+        width: 90%;
+        margin: 0 5%;
+    }
+    .header-text h1 {
+        font-size: 1.5em;
+        margin-top: 0.5em;
+    }
+    .header-text p{
+        font-size: 1em;
+    }
+
+    .header-text {
+        width: 28%;
+    }
+    .header-image{
+        width: 40%;
+        padding: 0;
+    }
+
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blog-container {
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        height: max-content;
+    }
+
+    .pages {
+        flex-direction: row;
+        align-items: center;
+        background-color: white;
+    }
+
+
+    .pages p {
+        padding: 20px;
+        justify-content: space-between;
+        font-size: 15px;
+    }
+    .other-pages{
+        border: 2px solid lightgray;
+    }
+
+    .view-all {
+        display: block;
+    }
+
+}
