@@ -208,6 +208,18 @@ nav ul li a{
     font-size: 12px;
 }
 
+.social-media{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 40px;
+}
+.social-media a{
+    color: aliceblue;
+}
+
 /* Upcoming matches Part */
 .fixture-flags{
     display: flex;
