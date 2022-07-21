@@ -267,7 +267,7 @@ nav ul li a{
     .main-container {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
     }
 
@@ -275,16 +275,15 @@ nav ul li a{
         flex-direction: column;
         justify-content: center;
         background-color: white;
-        border-radius: 2px;
-        margin: 2px solid lightgray;    
+        border-radius: 2px;   
     }
 
     .pages p {
         width: 300px;
         flex-direction: row;
-        align-items: center;
+        text-align: center;
         justify-content: center;
-        padding: 5px;
+        padding: 10px 15px;
     }
     .other-pages {
         border: 2px solid gainsboro;
@@ -300,6 +299,7 @@ nav ul li a{
         justify-content: center;
         align-items: center;
         height: max-content;
+        margin: 20px;
     }
 
     .post {
@@ -335,7 +335,7 @@ nav ul li a{
 }
 
 /* For Tab view */
-@media screen and (min-width:577px) and (max-width:821px) {
+@media screen and (min-width:577px) and (max-width:992px) {
 
     .header-container{
         height: fit-content;
