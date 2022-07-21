@@ -94,7 +94,7 @@ body{
     color: black;
 }
 .other-pages{
-    background-color: aliceblue;
+    background-color: white;
     color: #000;
 }
 .current-page{
@@ -122,7 +122,7 @@ body{
     width: 240px;
     margin-right: 10px;
     border: 1px solid lightgray;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 12px;
     overflow: hidden;
 }
@@ -235,6 +235,102 @@ nav ul li a{
 
 /* For Mobile */
 
-@media screen and (max-width: ) {
+@media screen and (max-width:576px) {
+        .header-container {
+            flex-direction: column;
+            text-align: center;
+            height: fit-content;
+        }
+    
+        .header-text h1 {
+            font-size: 2em;
+            margin-top: 15px;
+        }
+    
+        .header-text, .header-image {
+            width: 80%;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .header-text p {
+            margin: 1.5em 0;
+        }
+    
+        .watch-live {
+            width: 50%;
+        }
+
+        .main-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .blog-container {
+            grid-template-columns: 1fr;
+            justify-content: center;
+            align-items: center;
+            height: max-content;
+        }
+    
+        .pages {
+            flex-direction: column;
+            justify-content: center;
+            background-color: white;
+            border-radius: 2px;
+            margin: 2px solid lightgray;    
+        }
+    
+        .pages p {
+            width: 300px;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            padding: 5px;
+        }
+        .other-pages {
+            border: 2px solid gainsboro;
+        }
+    
+        .pages a {
+            flex-direction: row;
+            font-size: 25px;
+        }
+
+        .post {
+            margin-left: 23%;
+            height: max-content;
+            justify-content: center;
+        }
+
+        nav ul {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-left: 0;
+        }
+    
+        nav ul li {
+            margin-bottom: 15px;
+        }
+    
+        footer {
+            height: fit-content;
+            width: auto;
+            padding-bottom: 20px;
+        }
+        .social-media i {
+            font-size: 25px;
+        }
+    
+        .view-all {
+            display: none;
+        }
     
 }
